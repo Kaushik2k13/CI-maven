@@ -7,7 +7,7 @@ public class checkTest {
 	private check area = new check();
 	@Test
 	public void testSq_area() {
-		assertEquals(16,area.sq_area(4));
+		Assert.assertEquals(16,area.sq_area(4));
 	}
 	@Test
 	public void testC_area() {
