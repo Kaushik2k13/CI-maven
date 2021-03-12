@@ -4,6 +4,17 @@
   <artifactId>junit.stm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>stm</name>
+  <build>
+    <plugins>
+    <plugin>
+      <groupId>org.jenkins-ci.tools</groupId>
+      <artifactId>maven-hpi-plugin</artifactId>
+      <configuration>
+        <pluginFirstClassLoader>true</pluginFirstClassLoader>
+      </configuration>
+    </plugin>
+  </plugins>
+  </build>
    <properties>
         <maven.compiler.target>15</maven.compiler.target>
         <maven.compiler.source>15</maven.compiler.source>
