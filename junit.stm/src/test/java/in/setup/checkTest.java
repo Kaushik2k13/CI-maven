@@ -27,5 +27,4 @@ public class checkTest {
 	@Test
 	public void testtri_area() {
 		assertEquals(7.875,area.tri_area(3.5,4.5),0);
-	}
-}
+	}}
