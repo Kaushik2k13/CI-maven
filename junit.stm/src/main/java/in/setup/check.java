@@ -12,5 +12,7 @@ public class check {
 	public int rec_area(int w, int l ) {
 		return(w*l);
 	}
-	
+	public double tri_area(int b, int h ) {
+		return ((1/2)*b*h);
+	}
 }

@@ -18,5 +18,8 @@ public class checkTest {
 	public void testRec_area() {
 		fail("Not yet implemented");
 	}
-
+	@Test
+	public void testtri_area() {
+		fail("Not yet implemented");
+		}
 }
