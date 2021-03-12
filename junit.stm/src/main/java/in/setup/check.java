@@ -6,14 +6,13 @@ public class check {
 		return(a*a);
 	}
 	public double c_area(int r) {
-		double  ca =2*(3.14)*r;
-		return(ca);
+		return((3.14)*r*r);
 	}
 	public int rec_area(int w, int l ) {
 		return(w*l);
 	}
-	public double tri_area(int b, int h ) {
-		return ((1/2)*b*h);
+	public double tri_area(double d, double e ) {
+		return (((0.5)*d)*e);
 	}
 	
 }
