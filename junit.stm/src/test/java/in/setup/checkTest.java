@@ -22,5 +22,4 @@ public class checkTest {
 	public void testtri_area() {
 		fail("Not yet implemented");
 	}
-	
 }
