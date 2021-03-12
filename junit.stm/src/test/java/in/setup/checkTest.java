@@ -21,5 +21,5 @@ public class checkTest {
 	@Test
 	public void testtri_area() {
 		fail("Not yet implemented");
-		}
+	}
 }
