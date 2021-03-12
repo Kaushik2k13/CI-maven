@@ -15,4 +15,5 @@ public class check {
 	public double tri_area(int b, int h ) {
 		return ((1/2)*b*h);
 	}
+	
 }

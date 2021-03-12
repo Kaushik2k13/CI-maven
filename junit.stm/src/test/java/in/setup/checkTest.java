@@ -8,12 +8,10 @@ public class checkTest {
 	public void testSq_area() {
 		fail("Not yet implemented");
 	}
-
 	@Test
 	public void testC_area() {
 		fail("Not yet implemented");
 	}
-
 	@Test
 	public void testRec_area() {
 		fail("Not yet implemented");
