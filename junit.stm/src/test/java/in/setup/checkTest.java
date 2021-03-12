@@ -1,17 +1,11 @@
 package in.setup;
 
 import static org.junit.Assert.*;
-
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class checkTest {
 	
-	private static check area ;
-	@BeforeClass
-	public static void setup() {
-		area = new check();
-	}
+	private static check area = new check();
 	@Test
 	public void testSq_area() {
 		assertEquals(16,area.sq_area(4));
@@ -27,4 +21,5 @@ public class checkTest {
 	@Test
 	public void testtri_area() {
 		assertEquals(7.875,area.tri_area(3.5,4.5),0);
-	}}
+	}
+	}
