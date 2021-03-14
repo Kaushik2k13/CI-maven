@@ -20,7 +20,6 @@ public class inttest {
 	public void testRec_area() {
 		fail("Not yet implemented");
 	}
-
 	@Test
 	public void testTri_area() {
 		fail("Not yet implemented");
