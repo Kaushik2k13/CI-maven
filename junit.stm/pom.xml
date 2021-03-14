@@ -10,6 +10,11 @@
         <java.version>15</java.version>
         <jenkins.version>1.625</jenkins.version>
     <runSuite>**/inttest.class</runSuite>
+      <artifactId>TestComplete</artifactId>
+  <name>TestComplete support plug-in</name>
+  <version>2.7-SNAPSHOT</version>
+  <packaging>hpi</packaging>
+  <url>https://github.com/jenkinsci/testcomplete-plugin/blob/master/docs/README.md</url>
    </properties>    
    <dependencies>
       <dependency>

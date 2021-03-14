@@ -1,6 +1,5 @@
 package in.setup;
 
-
 public class check {
 	public int sq_area(int a) {
 		return(a*a);
