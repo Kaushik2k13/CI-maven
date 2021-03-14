@@ -9,7 +9,6 @@
         <maven.compiler.source>15</maven.compiler.source>
         <java.version>15</java.version>
         <jenkins.version>1.625</jenkins.version>
-    <runSuite>**/testing.class</runSuite>
    </properties>     
    <dependencies>
       <dependency>
