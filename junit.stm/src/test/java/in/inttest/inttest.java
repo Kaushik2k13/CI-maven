@@ -1,10 +1,11 @@
-package in.setup;
+package in.inttest;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class checkintegration { 
+public class inttest {
+
 	@Test
 	public void testSq_area() {
 		fail("Not yet implemented");
