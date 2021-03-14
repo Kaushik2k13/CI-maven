@@ -25,5 +25,4 @@ public class inttest {
 	public void testTri_area() {
 		fail("Not yet implemented");
 	}
-
 }
