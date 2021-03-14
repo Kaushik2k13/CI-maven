@@ -9,9 +9,15 @@
         <maven.compiler.source>15</maven.compiler.source>
         <java.version>15</java.version>
         <jenkins.version>1.625</jenkins.version>
-        </properties>     
+    <runSuite>**/testing.class</runSuite>
+   </properties>     
    <dependencies>
-      
+      <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+      </dependency>
    </dependencies>
 
 </project>
