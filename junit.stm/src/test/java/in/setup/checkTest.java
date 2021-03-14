@@ -1,6 +1,8 @@
 package in.setup;
 import static org.junit.Assert.*;
 import org.junit.*;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
 
 public class checkTest {
 	
@@ -21,4 +23,5 @@ public class checkTest {
 	public void testtri_area() {
 		assertEquals(7.875, area.tri_area(3.5, 4.5),0);
 	}
+	Result result = JUnitCore.runClasses(inttest.class);
 	}

@@ -10,8 +10,7 @@
         <java.version>15</java.version>
         <jenkins.version>1.625</jenkins.version>
     <runSuite>**/inttest.class</runSuite>
-    
-   </properties>     
+   </properties>    
    <dependencies>
       <dependency>
       <groupId>junit</groupId>
