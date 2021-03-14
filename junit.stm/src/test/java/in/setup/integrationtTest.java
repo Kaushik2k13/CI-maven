@@ -26,5 +26,4 @@ public class integrationtTest {
 	public void testTri_area() {
 		assertEquals(111,areas.tri_area(areas.c_area(5),areas.c_area(1)));
 	}
-
 }
